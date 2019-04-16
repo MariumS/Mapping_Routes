@@ -19,19 +19,19 @@ var marker = new mapboxgl.Marker()
   .setPopup(popup)
   .addTo(map);
 
-studentPizzaShops.forEach(function(studentData) {
+studentPizzaShops.forEach(function(StudentData) {
 
   var thisStudentsColor = 'steelblue';
-  if (studentData.nyuprogram === 'wagner') thisStudentsColor = 'orange';
-  if (studentData.nyuprogram === 'cusp') thisStudentsColor = 'purple';
-  if (studentData.nyuprogram === 'adjunct') thisStudentsColor = 'green';
-  if (studentData.nyuprogram === 'global liberal studies') thisStudentsColor = 'yellow';
+  if (StudentData.nyuprogram === 'wagner') thisStudentsColor = 'orange';
+  if (StudentData.nyuprogram === 'cusp') thisStudentsColor = 'purple';
+  if (StudentData.nyuprogram === 'adjunct') thisStudentsColor = 'green';
+  if (StudentData.nyuprogram === 'global liberal studies') thisStudentsColor = 'yellow';
 
   new mapboxgl.Marker({
     color: thisStudentsColor,
   })
-    .setLngLat([studentData.lng, studentData.lat])
+    .setLngLat([StudentData.lng, StudentData.lat])
     .setPopup(new mapboxgl.Popup({ offset: 40 })
-    .setText("${studentData.name} says their favorite pizza shop is ${studentData.favoritepizzashop}"))
+    .setText("${StudentData.name} says their favorite pizza shop is ${StudentData.favoritepizzashop}"))
     .addTo(map);
 });
