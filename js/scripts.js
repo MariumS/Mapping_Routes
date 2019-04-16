@@ -1,3 +1,4 @@
+
 // sets up my mapbox access token so they can track my usage of their basemap services
 mapboxgl.accessToken = 'pk.eyJ1IjoibWFyemlwYW45NCIsImEiOiJjanVrOTdwaDQxdG42NDRwNGFmbzY5dWdtIn0.4lVQxPc89QYzHas2IIWmew';
 
@@ -24,6 +25,6 @@ studentPizzaShops.forEach(function(StudentData) {
   })
     .setLngLat([StudentData.lng, StudentData.lat])
     .setPopup(new mapboxgl.Popup({ offset: 10 })
-      .setText(`${StudentData.name} says their favorite pizza shop is ${StudentData.favoritepizzashop}`))
+    .setText(`${StudentData.name} says their favorite pizza shop is ${StudentData.favoritepizzashop}`))
     .addTo(map);
 });
