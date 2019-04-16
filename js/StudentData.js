@@ -119,3 +119,4 @@ var studentPizzaShops = [
       "lat": 40.7615968
     }
   ]
+;
