@@ -32,6 +32,6 @@ studentPizzaShops.forEach(function(studentData) {
   })
     .setLngLat([studentData.lng, studentData.lat])
     .setPopup(new mapboxgl.Popup({ offset: 40 })
-      .setText(`${studentData.name} says their favorite pizza shop is ${studentData.favoritepizzashop}`))
+    .setText("${studentData.name} says their favorite pizza shop is ${studentData.favoritepizzashop}"))
     .addTo(map);
-})
+});
