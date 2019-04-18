@@ -4,8 +4,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWFyemlwYW45NCIsImEiOiJjanVrOTdwaDQxdG42NDRwN
 
 var map = new mapboxgl.Map({
   container: 'mapContainer',
-  style: 'mapbox://styles/mapbox/streets-v11',
-  center: [110.2529, 36.2048],
+  style: 'mapbox://styles/mapbox/outdoors-v11',
+  center: [0, 0],
   zoom: 1.5
 });
 
@@ -14,7 +14,7 @@ map.addControl(new mapboxgl.NavigationControl());
 travel_data.forEach(function(travels) {
 
 new mapboxgl.Marker({
-  color: 'lightblue',
+  color: 'blue',
 })
   .setLngLat([travels.Lon, travels.Lat])
   .setPopup(new mapboxgl.Popup({ offset: 10 })
