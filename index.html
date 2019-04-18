@@ -3,33 +3,46 @@
 
 <head>
   <meta charset='utf-8' />
-
-  <title>Animate a point along a route</title>
-
+  <title>The Travels of David Fairchild </title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' />
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css">
-
-
-
 </head>
-
-
-
 
 <body>
 
-  <div id='map'></div>
+<div>
+<h1>
+An animated map showing the travels of David Fairchild, food explorer. Click the locations to see the significance of each point
+  </h1>
+  <h2>
+    More than a century ago, starting in the 1890s, Fairchild worked for the United States Department of Agriculture, journeying around the world to send back seeds or cuttings of over 200,000 kinds of fruits, vegetable and grains. His department, the Office of Foreign Seed and Plant Introduction, researched and distributed new crops to farmers around the states.
+  </h2>
+  </div>
 
-  <div class='overlay'>
-    <button id='replay'>Replay</button>
+
+  <div id='mapContainer' >   </div>
+
+
+<div>
+  <h2>
+    references:
+    https://www.smithsonianmag.com/arts-culture/smalltalk_fairchild-180967508/
+    https://www.lindahall.org/david-fairchild/
+    https://www.npr.org/sections/thesalt/2018/02/20/586459088/like-lemons-quinoa-thank-this-food-explorer-for-bringing-them-to-your-plate
+    http://www.blackburnpress.com/wowasmyga.html
+  </h2>
+
   </div>
 
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
-  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js' charset='utf-8'></script>
-  <script src='js/scripts.js'></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
   <script src="js/travels.js"></script>
+  <script src='js/scripts.js'></script>
 
 </body>
 
