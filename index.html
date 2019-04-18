@@ -1,27 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset='utf-8' />
 
-    <title>Class 3 Example</title>
-    <meta name="description" content="The HTML5 Herald">
-    <meta name="author" content="SitePoint">
+  <title>Animate a point along a route</title>
 
-    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
-  </head>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
-  <body>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' />
+  <link rel="stylesheet" href="css/styles.css">
 
-    <div id="mapContainer"></div>
 
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <script src="js/StudentData.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+
+</head>
+
+
+
+
+<body>
+
+  <div id='map'></div>
+
+  <div class='overlay'>
+    <button id='replay'>Replay</button>
+  </div>
+
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js' charset='utf-8'></script>
+  <script src='js/scripts.js'></script>
+  <script src="js/travels.js"></script>
+
+</body>
+
 </html>

@@ -1,0 +1,68 @@
+var travel_data = [
+  {
+    "Location": "Kansas",
+    "Lon": 98.4842,
+    "Lat": 39.0119,
+    "Pop_Up": "Raised in Kansas"
+  },
+  {
+    "Location": "DC",
+    "Lon": 77.0369,
+    "Lat": 38.9072,
+    "Pop_Up": "Joined Department of Agriculture heading the Office of Plant and Seed Introduction"
+  },
+  {
+    "Location": "Naples",
+    "Lon": 14.305573,
+    "Lat": 40.853294,
+    "Pop_Up": "Studied algae and termites"
+  },
+  {
+    "Location": "Bavaria",
+    "Lon": 11.4979,
+    "Lat": 48.7904,
+    "Pop_Up": "Bavaria: Collected Hops"
+  },
+  {
+    "Location": "Austria_Hungry",
+    "Lon": 16.3738,
+    "Lat": 48.2082,
+    "Pop_Up": "Collected Kale"
+  },
+  {
+    "Location": "Java",
+    "Lon": 0.7893,
+    "Lat": 113.9213,
+    "Pop_Up": "Collected Mangosteen"
+  },
+  {
+    "Location": "Egypt",
+    "Lon": 26.8206,
+    "Lat": 30.8025,
+    "Pop_Up": "Collected Egyptian Cotton"
+  },
+  {
+    "Location": "Peru",
+    "Lon": 9.19,
+    "Lat": 75.0152,
+    "Pop_Up": "Collected Quinoa"
+  },
+  {
+    "Location": "Japan",
+    "Lon": 36.2048,
+    "Lat": 138.2529,
+    "Pop_Up": "Collected Cherry Blossom Trees"
+  },
+  {
+    "Location": "DC",
+    "Lon": 77.0369,
+    "Lat": 38.9072,
+    "Pop_Up": "Got married to daughter of Alexander Graham Bell"
+  },
+  {
+    "Location": "Florida",
+    "Lon": 27.6648,
+    "Lat": 81.5158,
+    "Pop_Up": "Settled down with his family"
+  }
+]
