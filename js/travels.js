@@ -55,8 +55,8 @@ var travel_data = [
   },
   {
     "Location": "Florida",
-    "Lon": 27.6648,
-    "Lat": -81.5158,
+    "Lon": 27.9948,
+    "Lat": -81.760254,
     "Pop_Up": "settled down with his family at the end of his travels"
   }
 ]
